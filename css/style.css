@@ -1,0 +1,95 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Red-Hat-Display;
+    src: url(../font/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color:hsl(225, 100%, 94%);
+    color: hsl(224, 23%, 55%);
+    font-family: Red-Hat-Display;
+}
+
+h1, strong, a {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.card {
+    display: grid;
+    max-width: 400px;
+    background-color:  hsl(225, 100%, 98%);
+    
+}
+
+.ilustracao {
+    background-image: url(../images/illustration-hero.svg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.informacoes {
+    display: grid;
+    text-align: center;
+    padding: 30px;
+    gap: 25px;
+    
+}
+
+.informacoes a {
+    text-decoration: none;
+}
+
+.plano a {
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    
+}
+
+.bt-pagamento {
+    padding: 10px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: hsl(225, 100%, 98%)
+}
+
+.bt-pagamento:hover {
+
+}
+
+.bt-cancelamento {
+    color: hsl(224, 23%, 55%)
+}
+
+.bt-cancelamento:hover {
+
+}
+.plano {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.valor {
+    display: flex;
+    align-items: center;
+}
+
+.detalhe-valor span, strong {
+    display: block;
+    margin-left: 20px;
+}
