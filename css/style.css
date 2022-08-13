@@ -29,7 +29,7 @@ h1, strong, a {
 .card {
     display: grid;
     max-width: 400px;
-    background-color:  hsl(225, 100%, 98%);
+    background-color:  white;
     border-radius: 10px;
 }
 
@@ -53,11 +53,23 @@ h1, strong, a {
     text-decoration: none;
 }
 
+.plano {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .plano a {
     text-decoration: underline;
     color: hsl(245, 75%, 52%);
     font-weight: 900;
-    
+}
+
+.plano a:hover {
+    text-decoration: none;
 }
 
 .bt-pagamento {
@@ -68,7 +80,7 @@ h1, strong, a {
 }
 
 .bt-pagamento:hover {
-
+    background-color: hsl(244, 77%, 65%);
 }
 
 .bt-cancelamento {
@@ -76,13 +88,9 @@ h1, strong, a {
 }
 
 .bt-cancelamento:hover {
+    color: hsl(223, 47%, 23%);
+}
 
-}
-.plano {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .valor {
     display: flex;
